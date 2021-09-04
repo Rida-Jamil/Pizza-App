@@ -10,10 +10,11 @@ const tablestyle = {
 function ViewOrder() {
     const history = useHistory();
     const [data, setData] = useState([]);
+    const api = ("https://order-pizza-api.herokuapp.com/api/orders")
 
 
     useEffect(() => {
-        fetch("/api/orders")
+        fetch(api)
             .then((response) => {
                 response.json().then((result) => {
                     console.log("result", result)
