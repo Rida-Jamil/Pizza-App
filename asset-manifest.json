@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Pizza-App/static/css/main.7af788ee.chunk.css",
-    "main.js": "/Pizza-App/static/js/main.9031617e.chunk.js",
-    "main.js.map": "/Pizza-App/static/js/main.9031617e.chunk.js.map",
+    "main.js": "/Pizza-App/static/js/main.57531ca5.chunk.js",
+    "main.js.map": "/Pizza-App/static/js/main.57531ca5.chunk.js.map",
     "runtime-main.js": "/Pizza-App/static/js/runtime-main.14909dfa.js",
     "runtime-main.js.map": "/Pizza-App/static/js/runtime-main.14909dfa.js.map",
     "static/css/2.818011ed.chunk.css": "/Pizza-App/static/css/2.818011ed.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.818011ed.chunk.css",
     "static/js/2.3cf4f992.chunk.js",
     "static/css/main.7af788ee.chunk.css",
-    "static/js/main.9031617e.chunk.js"
+    "static/js/main.57531ca5.chunk.js"
   ]
 }
