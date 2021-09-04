@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Pizza-App/static/css/main.7af788ee.chunk.css",
+    "main.js": "/Pizza-App/static/js/main.21d2fd07.chunk.js",
+    "main.js.map": "/Pizza-App/static/js/main.21d2fd07.chunk.js.map",
+    "runtime-main.js": "/Pizza-App/static/js/runtime-main.14909dfa.js",
+    "runtime-main.js.map": "/Pizza-App/static/js/runtime-main.14909dfa.js.map",
+    "static/css/2.818011ed.chunk.css": "/Pizza-App/static/css/2.818011ed.chunk.css",
+    "static/js/2.3cf4f992.chunk.js": "/Pizza-App/static/js/2.3cf4f992.chunk.js",
+    "static/js/2.3cf4f992.chunk.js.map": "/Pizza-App/static/js/2.3cf4f992.chunk.js.map",
+    "static/js/3.688c901f.chunk.js": "/Pizza-App/static/js/3.688c901f.chunk.js",
+    "static/js/3.688c901f.chunk.js.map": "/Pizza-App/static/js/3.688c901f.chunk.js.map",
+    "index.html": "/Pizza-App/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/Pizza-App/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.7af788ee.chunk.css.map": "/Pizza-App/static/css/main.7af788ee.chunk.css.map",
+    "static/js/2.3cf4f992.chunk.js.LICENSE.txt": "/Pizza-App/static/js/2.3cf4f992.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14909dfa.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.3cf4f992.chunk.js",
+    "static/css/main.7af788ee.chunk.css",
+    "static/js/main.21d2fd07.chunk.js"
+  ]
+}
