@@ -26,7 +26,7 @@ function App() {
         <div>
           <Navbar bg="dark" variant="dark">
             <Container>
-              <Navbar.Brand href="/"> <img src={logo} alt="logo" /> Pizzeria </Navbar.Brand>
+              <Navbar.Brand href="/Pizza-App"> <img src={logo} alt="logo" /> Pizzeria </Navbar.Brand>
               <Nav className="me-auto">
                 <Nav.Link as={Link} to="/Home"> Start Here </Nav.Link>
               </Nav>
