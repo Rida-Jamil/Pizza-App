@@ -13,7 +13,7 @@ function ViewOrder() {
 
 
     useEffect(() => {
-        fetch("https://order-pizza-api.herokuapp.com/api/orders")
+        fetch("/api/orders")
             .then((response) => {
                 response.json().then((result) => {
                     console.log("result", result)
