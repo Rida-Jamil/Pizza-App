@@ -2,6 +2,7 @@
   "name": "pizza",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://order-pizza-api.herokuapp.com",
   "homepage": "https://rida-jamil.github.io/Pizza-App/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
