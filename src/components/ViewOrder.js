@@ -5,18 +5,15 @@ import Table from 'react-bootstrap/Table';
 
 const tablestyle = {
     color: "orange",
-};
+  };
 
 function ViewOrder() {
     const history = useHistory();
     const [data, setData] = useState([]);
-    // const api = ("https://order-pizza-api.herokuapp.com/api/orders")
 
 
     useEffect(() => {
-        fetch('https://order-pizza-api.herokuapp.com/api/orders',
-            { mode: 'no-cors' }
-        )
+        fetch("/api/orders")
             .then((response) => {
                 response.json().then((result) => {
                     console.log("result", result)
@@ -47,7 +44,7 @@ function ViewOrder() {
                             <td>{item.Timestamp}</td>
                         </tr>
                     ))
-                    }
+                   }
                 </tbody>
             </Table>
             {/* {users.map(user => (
