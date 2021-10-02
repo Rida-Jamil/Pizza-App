@@ -1,8 +1,6 @@
 body {
   background-image: url('https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-  background-size: auto;
-  /* https://images.unsplash.com/photo-1561350111-7daa4f284bc6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80 */
-}
+  background-size: auto;}
 
 .btn{
   background-color: white !important;
