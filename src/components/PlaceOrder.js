@@ -34,7 +34,7 @@ function PlaceOrder() {
                 "Table_No": 9,
             }
 
-            let token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzExNzE5MTksIm5iZiI6MTYzMTE3MTkxOSwianRpIjoiMmRjM2MwZWYtYWZlNy00Y2QwLWIyNTMtM2RlMWM4MTRlYzRiIiwiZXhwIjoxNjMxMTcyODE5LCJpZGVudGl0eSI6InRlc3QiLCJmcmVzaCI6ZmFsc2UsInR5cGUiOiJhY2Nlc3MifQ.S6t5pUBgCjIwJ3FJr8ifG3itxmb06Rux7aG4Yf9ZE0U";
+            let token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MzE0NDUwMDYsIm5iZiI6MTYzMTQ0NTAwNiwianRpIjoiY2ZhMzEyNDctMTVhZS00MmM5LWEzMDEtMWRlNmQ4MDY4YTE3IiwiZXhwIjoxNjMxNDQ1OTA2LCJpZGVudGl0eSI6InRlc3QiLCJmcmVzaCI6ZmFsc2UsInR5cGUiOiJhY2Nlc3MifQ.oY7J-ntVCIP26It97GsrJcis34zXoOmuy5QQXpBJYSo";
 
             const requestOptions = {
                 method: 'POST',
