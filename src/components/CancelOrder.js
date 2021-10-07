@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import { Button, Table } from 'react-bootstrap';
+import './CancelOrder.css'
 
 const tablestyle = {
     color: "orange",
@@ -39,35 +40,36 @@ function CancelOrder() {
     return (
         <>
             <h3>Cancel Orders List</h3>
-            <Table striped bordered hover variant="warning" style={tablestyle}>
-                <thead>
-                    <tr>
-                        <th>Order ID#</th>
-                        <th>Crust</th>
-                        <th>Flavour</th>
-                        <th>Size</th>
-                        <th>Time Stamp</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {orders.map((v, i) => {
-                        return (
-                            <tr key={i}>
-                                <td>{v.Order_ID}</td>
-                                <td>{v.Crust}</td>
-                                <td>{v.Flavor}</td>
-                                <td>{v.Size}</td>
-                                <td>{v.Timestamp}</td>
-                                <td><Button variant="outline-warning" size="md" onClick={() => onClickCancel(v.Order_ID)}>Cancel Order</Button></td>
-                            </tr>
+            <div className="corder">
+                <Table striped bordered hover variant="warning" style={tablestyle}>
+                    <thead>
+                        <tr>
+                            <th>Order ID#</th>
+                            <th>Crust</th>
+                            <th>Flavour</th>
+                            <th>Size</th>
+                            <th>Time Stamp</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {orders.map((v, i) => {
+                            return (
+                                <tr key={i}>
+                                    <td>{v.Order_ID}</td>
+                                    <td>{v.Crust}</td>
+                                    <td>{v.Flavor}</td>
+                                    <td>{v.Size}</td>
+                                    <td>{v.Timestamp}</td>
+                                    <td><Button variant="outline-warning" size="md" onClick={() => onClickCancel(v.Order_ID)}>Cancel Order</Button></td>
+                                </tr>
+                            )
+                        }
                         )
-                    }
-                    )
-                    }
-                </tbody>
-            </Table>
-
+                        }
+                    </tbody>
+                </Table>
+            </div>
             <Button variant="outline-warning" size="lg" onClick={() => history.goBack()}> Go Back </Button>
 
         </>

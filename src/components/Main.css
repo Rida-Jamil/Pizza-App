@@ -1,0 +1,71 @@
+.home{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+  }
+  .buttonDiv{
+    margin-top: 40px;
+  }
+  .logo{
+    margin-top: 20px;
+  }
+  .spectaclePizza{
+    width: 100%;
+    background-image: url('https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px 40px;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    box-sizing: border-box;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+  }
+  .inside{
+    background-color: #f5f4f13d;
+    padding: 20px;
+    width: fit-content;
+  }
+  .italianPizza{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F5F5F5;
+    justify-content: space-around !important; 
+    padding: 20px;
+  
+    flex-wrap: wrap;
+  }
+  .insideItalian{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    padding: 10px 10px;
+    
+  }
+  .italianImg{
+    background-image: url("../img/bg-image.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+    border: none;
+  }
+  .flavors{
+    background-color: #EAEAEA;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  .flavorHeading{
+    margin-bottom: 25px;
+  }
